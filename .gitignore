@@ -169,3 +169,83 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+
+# .gitignore for a mixed Python and .NET project
+
+# Python ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+*.log
+pip-log.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS ignores
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python packaging
+*.manifest
+*.spec
+
+# PyInstaller
+*.dll
+*.so
+*.dylib
+*.h
+*.lib
+
+# .NET ignores
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.app
+*.pdb
+*.cache
+*.log
+*.userprefs
+*.csproj.user
+*.suo
+*.bak
+*.swp
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Exclude sensitive information
+bot_token.txt
+
